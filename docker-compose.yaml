@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   webui:
-    image: ghcr.io/open-webui/open-webui:git-09a81eb
+    image: ghcr.io/open-webui/open-webui
     expose:
       - 8080/tcp
     ports:
